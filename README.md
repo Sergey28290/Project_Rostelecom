@@ -2,8 +2,8 @@
 
 ### EXP-001	
 #### Перенаправление пользователя на страницу Личного кабинета при успешной регистрации по почте
-####  pytest -v -s tests/test_exp_001.py --alluredir results
-#### allure serve results
+pytest -v -s tests/test_exp_001.py --alluredir results
+allure serve results
 ### EXP-002	
 #### Перенаправление пользователя на страницу Личного кабинета при успешной регистрации по телефону
 #### pytest -v -s tests/test_exp_002.py --alluredir results
