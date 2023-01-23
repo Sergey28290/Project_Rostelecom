@@ -5,6 +5,6 @@ def test_exp_003(browser):
     reg = AutorizationPage(browser)
     reg.go_to_site()
     reg.enter_login("+71234567890")
-    reg.enter_password("FDnx4937")
+    reg.enter_password("password")
     reg.enter_input_button()
     reg.search_personal_account_page()
